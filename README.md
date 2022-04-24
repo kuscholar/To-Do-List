@@ -1,17 +1,60 @@
-# A Task-tracking web application
+# A To-Do List web application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to run
+**You can simply check out the <a href="http://kusch-pc.unstc.site:20666/">deployed website</a>**
+</br>
+</br>
+***This app was built on React frameworks, you can refer to <a href="https://www.upbeatcode.com/react/how-to-run-react-js-build-locally/">here</a> to find how to run a React build***
+</br>
+</br>
+### 1. Download the project
+You can download the project from github as a zip file:
+
+<img src="https://user-images.githubusercontent.com/61807135/164958774-cfe27596-5477-45aa-9b30-7297a551951b.png">
+
+Then extract the zip file into your local folder.
+
+
+### 2. Install npm (<a href='https://docs.npmjs.com/downloading-and-installing-node-js-and-npm'>reference</a>)
+In your terminal, direct to the project directory using cd, for example:
+
+      cd C:\Users\diamondLifeTester\Documents\Projects\To-Do-List
+
+then run the following command:
+
+      npm install -g npm
+      
+### 3. Install Serve
+In your terminal, run the following command:
+
+      npm install -g serve
+      
+### 4. Serve the React build with Serve
+In your terminal, run the following command:
+
+      serve -s build -p 3000
+      
+You should see this in your terminal:
+
+<img src="https://user-images.githubusercontent.com/61807135/164958836-55abe706-a291-43a7-a057-8d45c57b6732.png">
+
+Then in your browser go to http://localhost:3000, and you will be able to check it out locally.
+
 ## How to use
-#### To add a task: click on 'Add', and put in task infos
-#### To set reminder: double click on the task, and it will be showing a green bar if reminder is set
-#### To delete a task: click on the red cross
+**To add a task:** click on 'Add', and put in task infos.
+</br>
+**To set as completed:** double click on the task, and it will be showing a green bar and strikethrough text if completed.
+</br>
+**To delete a task:** click on the red cross.
+</br>
 ## Demo
 ### Adding To-do tasks
-<img src='https://github.com/kuscholar/Task-tracking-React/blob/8ce49d937a25fb9940e4bbc4d897be50985a619b/demo_pics/Adding%20Tasks.png'>
+<img src='https://user-images.githubusercontent.com/61807135/164958190-afdcb4eb-ae43-4f54-8ec5-21948916f71b.png'>
 
 ### Showing tasks
-<img src='https://github.com/kuscholar/Task-tracking-React/blob/8ce49d937a25fb9940e4bbc4d897be50985a619b/demo_pics/Showing%20Tasks.png'>
+<img src='https://user-images.githubusercontent.com/61807135/164958163-4f1353c3-4efb-4859-ac73-90f2506bc7ba.png'>
 
 ## Available Scripts
 
