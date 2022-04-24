@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Submit To-do-list code challenge",
+      "day": "April 24th at 1am",
+      "completed": true
+    },
+    {
+        "id": 2,
+        "text": "Go to see doctor",
+        "day": "April 25th at 2pm",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "text": "Interview with diamondLife",
+        "day": "April 26th at 1pm",
+        "completed": false
+    }
+  ]
+}

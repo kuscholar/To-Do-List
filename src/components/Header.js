@@ -5,15 +5,15 @@ const Header = ({title, onAdd, showAdd}) => {
 
   return (
     <header className='header'>
-        <h1> {title}</h1>
-        <Button color={showAdd ? 'darkred' : 'green'} text={showAdd ? 'Close' : 'Add'} onClick={onAdd}/>
+        <h1> {title="My To Do List"}</h1>
+        <Button color={showAdd ? 'darkred' : 'green'} text={showAdd ? 'Close' : 'Add Task'} onClick={onAdd}/>
         
     </header>
   )
 }
 
 Header.defaultProps = {
-    title: 'Task Tracker'
+    title: 'My To Do List'
 }
 
 // Header.PropTypes = {
